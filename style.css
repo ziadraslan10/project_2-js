@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: chocolate;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-area{
+  padding: 40px 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 25px 30px rgba(0 , 0 , 0 , 0.5);
+}
+h1{
+  font-size: 100; 
+  font-family: Impact;
+  margin: 40px;
+}
+p{
+  font-size: 35px;
+}
+.color{
+  color: chocolate;
+}
+button {
+  width: 250px;
+  height: 80px;
+  background-color: rgb(214, 103, 24);
+  font-size: 16;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  transition: all .5s ;
+}
+.container button:hover{
+  background-color: #008000;
+}
